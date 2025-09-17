@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Weather App</h1>
+               <div class="search-box">
+                   <input type="text" placeholder="Enter your City Name" class="input-box">
+               
+                   <button  class="fa-solid fa-magnifying-glass" id="SearchBtn">Search</button>
+
+               </div>
+
+        </div>
+
+
+        <div class="Error_404">
+            <h1>Sorry,Location Not found!!!</h1>
+            <img  src="Images/404.png" alt="404 Error">
+        </div>
+
+        <div class="weather-body">
+            <img src="Images/cloud.png" alt="" class="Weather-img">
+    
+            <div class="weather-box">
+                <p class="tempreature">0 <sup>°C</sup></p>
+                <p class="description">light Rain</p>
+                <p class="city_name">Jaipur</p>
+            </div>
+
+            <div class="weather-details">
+                  <div class="humidity">
+                      <i class="fa-sharp fa-solid fa-droplet"></i>
+                      <div class="text">
+                        <span id="humidity">45%</span>
+                        <p>Humidity</p>
+                      </div>
+                  </div>
+
+
+
+
+
+                  <div class="wind">
+                    <i class="fa-solid fa-wind"></i>
+                    <div class="text">
+                      <span id="wind-speed">12km/h</span>
+                      <p>Wind-speed</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+<script src="config.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
